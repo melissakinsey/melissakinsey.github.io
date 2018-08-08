@@ -1,13 +1,17 @@
 
 /* Limit size of image header */
+body {
+  max-width: 1068px;
+    padding: 20px;
+}
 img {
-  max-width: 800px;
+  max-width: 900px;
 }
 /* Create space for horizontal image with blog title */
 .header {
   img-align: right;
   background: #000000;
-  max-height: 200px;
+  max-height: 600px;
   max-width: 1068px;
 }
 /* Specs for indented quotation */
@@ -16,7 +20,7 @@ img {
 }
 /* Paragraph specs */
 p {
-font-family: 'Roboto', sans-serif; font-size: 16px;
+font-family: 'Roboto', sans-serif; font-size: 16px; font-space: 1.5em;
 }
 /* Head specs*/
 h1 {
