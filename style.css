@@ -9,18 +9,20 @@ img-FPO {
   max-width: 900px;
 }
 img {
-  max-width: 900px;
+  max-width: 1000px;
 }
 /* Create space for horizontal image with blog title */
 .header {
   img-align: right;
   background: #000000;
-  max-height: 600px;
+  max-height: 800px;
   max-width: 1068px;
 }
 /* Specs for indented quotation */
 .tab {
   margin-left: 40px; font-size: 12px;
+  font-weight: italic;
+  align: center;
 }
 /* Paragraph specs */
 p {
@@ -28,11 +30,15 @@ font-family: 'Roboto', sans-serif; font-size: 16px; font-space: 1.5em;
 }
 /* Head specs*/
 h1 {
-font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 48px;
-}
-h2 {
 font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 36px;
 }
+h2 {
+font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 24px; font-color: 300bfef;
+}
+h3 {
+font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; font-color: #00bfef;
+}
+
 /* Left and right floating columns */
 /* Left column */
 .leftcolumn { 
