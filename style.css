@@ -4,6 +4,10 @@ body {
   max-width: 1068px;
     padding: 20px;
 }
+/* Image specs */
+img-FPO {
+  max-width: 900px;
+}
 img {
   max-width: 900px;
 }
