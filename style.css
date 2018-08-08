@@ -1,17 +1,62 @@
+
+/* Limit size of image header */
+img {
+  max-width: 800px;
+}
+/* Create space for horizontal image with blog title */
 .header {
   img-align: right;
-  background: white;
+  background: #000000;
   max-height: 200px;
   max-width: 1068px;
 }
+/* Specs for indented quotation */
 .tab {
   margin-left: 40px; font-size: 12px;
 }
+/* Paragraph specs */
 p {
 font-family: 'Roboto', sans-serif; font-size: 16px;
 }
+/* Head specs*/
 h1 {
 font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 48px;
 }
+h2 {
+font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 36px;
+}
+/* Left and right floating columns */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 66%;
+}
 
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 34%;
+  padding-left: 20px;
+}
+
+/* FPO [for position only] image placeholder */
+.FPO {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Card for blog posts */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
 
