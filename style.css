@@ -77,7 +77,13 @@ img.FPO {
   float: right;
   align: top;
 }
-
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Make layout mobile responsive */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
     width: 100%;
