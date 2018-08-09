@@ -61,17 +61,19 @@ img.FPO {
   margin: 20px;
   background-color: #e6f7fb;
 }
+/* Card for intro post */
 .introcard {
   padding: 20px;
   margin: 20px;
  }
-
+/* Card for profile */
 .profilecard {
   padding: 20px;
   margin: 20px;
   outline-style: dotted;
   outline-color: #e9055b;
-  outline-width: 5px;}
+  outline-width: 5px;
+}
 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
