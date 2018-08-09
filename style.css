@@ -6,13 +6,11 @@ img {
 /* Create space for horizontal image with blog title */
 .header {
   img-align: center;
-  max-width: 1366px;
-}
+  }
 /* spec body */
 body {
   padding-left: 20px; padding-right; 20px;
-  max-width: 1366px;
-}
+  }
 /* Specs for indented quotation */
 .tab {
   margin-left: 40px; font-size: 14px;
