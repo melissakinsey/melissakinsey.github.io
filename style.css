@@ -52,10 +52,9 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* Right column */
 .rightcolumn {
-  float: right;
+  float: left;
   width: 25%;
   padding-left: 20px;
-  padding-right: 20px;
 }
 
 /* FPO [for position only] image placeholder */
@@ -82,8 +81,6 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-style: dotted;
   outline-color: #717171;
   outline-width: 5px;
-  float: right;
-  align: top;
 }
 /* Clear floats */
 .row:after {
