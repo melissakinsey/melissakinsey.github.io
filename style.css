@@ -38,7 +38,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 /* Left column */
 .leftcolumn { 
   float: left;
-  width: 75%;
+  width: 60%;
 }
 
 /* Right column */
@@ -60,6 +60,11 @@ img.FPO {
   margin-top: 20px;
   background-color: #e6f7fb;
 }
+.card2 {
+  padding: 20px;
+  margin-top: 20px;
+  outline-style: dotted;
+  outline-width: 5px;}
 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
