@@ -1,18 +1,21 @@
 
 /* Limit size of image header */
-body {
-  padding: 20px;
+img {
+  max-width: 1000px;
 }
 /* Create space for horizontal image with blog title */
 .header {
-  img-align: right;
+  img-align: center;
   max-height: 800px;
   max-width: 1068px;
 }
-/* Specs for indented quotation */
+/* spec body */
+body {
+  padding: 20px;
+}/* Specs for indented quotation */
 .tab {
   margin-left: 40px; font-size: 14px;
-  font-weight: italic;
+  font-style: italic;
   align: center;
 }
 /* Paragraph specs */
