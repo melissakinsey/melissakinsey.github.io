@@ -1,12 +1,7 @@
 
 /* Limit size of image header */
 body {
-  max-width: 1068px;
-    padding: 20px;
-}
-/* Image specs */
-img {
-  max-width: 900px;
+  padding: 20px;
 }
 /* Create space for horizontal image with blog title */
 .header {
