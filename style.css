@@ -5,19 +5,12 @@ body {
     padding: 20px;
 }
 /* Image specs */
-img-FPO {
-  max-width: 300px;
-}
-img-header {
-  max-width: 1000px;
-}
 img {
   max-width: 900px;
 }
 /* Create space for horizontal image with blog title */
 .header {
   img-align: right;
-  background: #ffffff;
   max-height: 800px;
   max-width: 1068px;
 }
@@ -58,15 +51,13 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* FPO [for position only] image placeholder */
 img.FPO {
-  background-color: #ffffff;
   width: 100%;
   padding: 20px;
 }
 
 /* Card for blog posts */
 .card {
-  background-color: #ffffff;
-  padding: 20px;
+    padding: 20px;
   margin-top: 20px;
 }
 
