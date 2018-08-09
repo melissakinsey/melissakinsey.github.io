@@ -11,6 +11,7 @@ img {
 /* spec body */
 body {
   padding-left: 20px; padding-right; 20px;
+  max-width: 1366px;
 }
 /* Specs for indented quotation */
 .tab {
@@ -51,7 +52,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* FPO [for position only] image placeholder */
 img.FPO {
-  max-width: 150px;
+  max-width: 200px;
   padding: 20px;
 }
 
@@ -71,8 +72,10 @@ img.FPO {
   padding: 20px;
   margin: 20px;
   outline-style: dotted;
-  outline-color: #e9055b;
+  outline-color: #717171;
   outline-width: 5px;
+  float: right;
+  align: top;
 }
 
 @media screen and (max-width: 800px) {
