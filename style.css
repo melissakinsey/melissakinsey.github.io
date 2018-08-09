@@ -49,7 +49,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* FPO [for position only] image placeholder */
 img.FPO {
-  width: 100%;
+  max-width: 200px;
   padding: 20px;
 }
 
