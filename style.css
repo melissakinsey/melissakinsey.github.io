@@ -46,24 +46,31 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: right;
   width: 25%;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* FPO [for position only] image placeholder */
 img.FPO {
-  max-width: 200px;
+  max-width: 150px;
   padding: 20px;
 }
 
 /* Card for blog posts */
-.card {
+.datecard {
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
   background-color: #e6f7fb;
 }
-.card2 {
+.introcard {
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
+ }
+
+.profilecard {
+  padding: 20px;
+  margin: 20px;
   outline-style: dotted;
+  outline-color: #e9055b;
   outline-width: 5px;}
 
 @media screen and (max-width: 800px) {
