@@ -37,13 +37,13 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 /* Left column */
 .leftcolumn { 
   float: left;
-  width: 66%;
+  width: 75%;
 }
 
 /* Right column */
 .rightcolumn {
   float: right;
-  width: 34%;
+  width: 25%;
   padding-left: 20px;
 }
 
