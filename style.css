@@ -54,7 +54,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* Spec for images in sidebar */
 .img_small {
-  max-width: 15%;
+  max-width: 150px;
   padding: 20px;
   float: right;
 }
@@ -65,14 +65,14 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   margin: 20px;
   background-color: #e6f7fb;
   float: left;
-  max-width: 65%;
+  max-width: 70%;
 }
 /* Card for intro post */
 .introcard {
   padding: 20px;
   margin: 20px;
   float: left;
-  max-width: 65%;
+  max-width: 70%;
  }
 /* Card for profile */
 .profilecard {
@@ -82,8 +82,8 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-color: #717171;
   outline-width: 5px;
   float: right;
-  max-width: 20%;
-}
+  maxwidth: 30%;
+ }
 /* Clear floats */
 .row:after {
   content: "";
