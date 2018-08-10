@@ -53,9 +53,10 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 }
 
 /* FPO [for position only] image placeholder */
-.imgFPO {
+.img_small {
   max-width: 200px;
   padding: 20px;
+  float: right;
 }
 
 /* Card for blog posts */
