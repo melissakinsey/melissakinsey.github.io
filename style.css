@@ -66,11 +66,13 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   padding: 20px;
   margin: 20px;
   background-color: #e6f7fb;
+  float: left;
 }
 /* Card for intro post */
 .introcard {
   padding: 20px;
   margin: 20px;
+  float: left;
  }
 /* Card for profile */
 .profilecard {
