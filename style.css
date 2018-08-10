@@ -82,7 +82,9 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-color: #717171;
   outline-width: 5px;
   float: right !important;
-  maxwidth: 30%;
+  max-width: 30%;
+  align: right;
+  position: absolute;
  }
 /* Clear floats */
 .row:after {
