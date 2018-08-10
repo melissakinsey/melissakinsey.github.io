@@ -7,10 +7,6 @@ img {
 .header {
   img-align: center;
   }
-/* spec body */
-body {
-  padding-left: 20px; padding-right; 20px;
-  }
 /* Specs for indented quotation */
 .tab {
   margin-left: 40px; font-size: 14px;
@@ -24,7 +20,8 @@ body {
   font-family: 'Roboto', sans-serif; 
   font-weight: bold; 
   align: left;
-  color: #171717
+  color: #171717; 
+  float: left;
 }
 /* Paragraph specs */
 p {
@@ -81,6 +78,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-style: dotted;
   outline-color: #717171;
   outline-width: 5px;
+  float: right;
 }
 /* Clear floats */
 .row:after {
