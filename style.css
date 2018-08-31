@@ -79,6 +79,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: left !important;
   width: 70%;
 }
+
 /* Card for intro post */
 .introcard {
   padding: 20px;
@@ -86,6 +87,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: left !important;
   max-width: 70%;
  }
+
 /* Card for profile and other right-sided boxes */
 .profilecard {
   padding: 20px;
@@ -94,8 +96,8 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-color: #717171;
   outline-width: 5px;
   float: right !important;
-  max-width: 25%;
-  align: right;	  
+  max-width: 30%;
+  align: right; 
   position: absolute;
   }
  
