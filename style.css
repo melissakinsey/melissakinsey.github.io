@@ -1,6 +1,6 @@
 /* Suppress list style */
 ul {
-  list-style: none; font-size: 14px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif; 
 }
 /* Add bullet */
