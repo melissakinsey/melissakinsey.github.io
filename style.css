@@ -97,8 +97,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   max-width: 30%;
   align: right;
   position: relative;
-  height: auto;
- }
+   }
 /* Clear floats */
 .row:after {
   content: "";
