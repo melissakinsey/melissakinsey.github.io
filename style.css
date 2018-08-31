@@ -73,7 +73,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* Spec to clear floats */
 .right {
-    clear: right;
+    clear: both;
 }
 
 /* Spec for image in sidebar */
@@ -110,12 +110,12 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: right;
   width: 30%;
   align: right;
-  clear: right;
+  clear: both;
    }
 
 /* Clear floats */
 .row:after {
-  clear: right;
+  clear: both;
 }
 /* Make layout mobile responsive */
 @media screen and (max-width: 800px) {
