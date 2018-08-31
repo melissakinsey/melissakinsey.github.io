@@ -1,11 +1,11 @@
 /* Suppress list style */
 ul {
-  list-style: none
+  list-style: none; font-size: 14px;
+  font-family: 'Roboto', sans-serif; 
 }
 /* Add bullet */
 li::before {
-  content: "•"; color: #e9055b; font-size: 14px;
-  font-family: 'Roboto', sans-serif; 
+  content: "•"; color: #e9055b; 
 }
 /* Set bulleted list in a block */
 li::before {content: "•"; color: #e9055b;
