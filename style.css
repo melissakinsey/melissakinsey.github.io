@@ -85,7 +85,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: left;
   max-width: 70%;
  }
-/* Card for profile and other right-sided boxes */
+/* Card for profile */
 .profilecard {
   padding: 20px;
   margin: 20px;
@@ -98,7 +98,20 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   position: absolute;
   display: block;
        }
- 
+ /* Create comment card to float on right side */
+.commentcard {
+  padding: 20px;
+  margin: 20px;
+  border-style: dotted;
+  border-color: #e6f7fb;
+  border-width: 5px;
+  float: right;
+  max-width: 30%;
+  align: right;
+  position: absolute;
+  display: block;
+       }
+
 /* Make layout mobile responsive */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
