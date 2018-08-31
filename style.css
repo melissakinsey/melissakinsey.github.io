@@ -59,7 +59,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
 
 /* Right column */
 .rightcolumn {
-  float: right !important;
+  float: right;
   width: 30%;
   padding-left: 20px;
 }
@@ -76,14 +76,14 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   padding: 20px;
   margin: 20px;
   background-color: #e6f7fb;
-  float: left !important;
+  float: left;
   width: 70%;
 }
 /* Card for intro post */
 .introcard {
   padding: 20px;
   margin: 20px;
-  float: left !important;
+  float: left;
   max-width: 70%;
  }
 /* Card for profile */
@@ -93,10 +93,10 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   outline-style: dotted;
   outline-color: #717171;
   outline-width: 5px;
-  float: right !important;
+  float: right;
   max-width: 30%;
   align: right;
-  position: absolute;
+  position: relative;
  }
 /* Clear floats */
 .row:after {
