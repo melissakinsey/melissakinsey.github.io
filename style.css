@@ -97,13 +97,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   max-width: 30%;
   align: right;
   position: absolute;
- }
-/* Clear floats */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+ 
 /* Make layout mobile responsive */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
