@@ -95,7 +95,7 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: right;
   max-width: 30%;
   align: right;
-  position: absolute;
+  position: relative;
   }
  
 /* Make layout mobile responsive */
