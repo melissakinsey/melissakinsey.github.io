@@ -4,7 +4,8 @@ ul {
 }
 /* Add bullet */
 li::before {
-  content: "•"; color: #e9055b
+  content: "•"; color: #e9055b; font-size: 14px;
+  font-family: 'Roboto', sans-serif; 
 }
 /* Set bulleted list in a block */
 li::before {content: "•"; color: #e9055b;
