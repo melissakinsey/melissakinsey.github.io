@@ -110,13 +110,11 @@ font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 18px; color: #0
   float: right;
   width: 30%;
   align: right;
-  clear: both;
+  clear: right;
    }
 
 /* Clear floats */
 .row:after {
-  content: "";
-  display: table;
   clear: right;
 }
 /* Make layout mobile responsive */
